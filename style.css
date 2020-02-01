@@ -79,15 +79,23 @@ img {
 }
 
 .section-b-inner h1 {
-	font-size: 3.5rem;
+	font-size: 4.5rem;
 	margin-top: 1rem;
 	font-weight: bold;
-	text-shadow: 1px 1px 5px black;
+	text-shadow: 1px 1px 5px var(--pink), -1px 1px 5px var(--pink), 1px -1px 5px var(--pink);
 }
 
 .section-b-inner p {
 	font-size: 1.5rem;
 	margin-top: 1rem;
+}
+
+.logo1 {
+	height: 150px;
+	width: 150px;
+	padding: 25px;
+	margin-top: -10px;
+	border-radius: 50px;
 }
 
 .overlay {
